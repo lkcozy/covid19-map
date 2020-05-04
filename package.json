@@ -2,11 +2,12 @@
   "name": "covid19-map",
   "version": "0.0.1",
   "private": false,
+  "homepage": "http://lkcozy.github.io/covid19-map",
   "dependencies": {
-    "deck.gl": "^8.1.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "deck.gl": "^8.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-map-gl": "^5.2.5",
