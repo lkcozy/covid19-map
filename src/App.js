@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import DeckGL from '@deck.gl/react'
+import { StaticMap } from 'react-map-gl'
+import './App.css'
 
-function App() {
+const MAPBOX_ACCESS_TOKEN =
+  'pk.eyJ1Ijoicm9iaW54aWEiLCJhIjoiY2lteG1paWJhMDNuY3ZobTR3MWlzaXc3YyJ9.-_adI58kkwW7-UtgvQcjMw'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <DeckGL
+      initialViewState={{ longitude: -114.0581, latitude: 51.0453, zoom: 12 }}
+      controller={true}
+      layers={[]}
+    >
+      <StaticMap
+        mapStyle='mapbox://styles/mapbox/dark-v9'
+        mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN}
+      />
+    </DeckGL>
+  )
 }
 
-export default App;
+export default App
