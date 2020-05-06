@@ -8,6 +8,7 @@ jobs:
     steps:
       - name: '👷‍♀️👷‍♂️Auto assign PR assignee'
         uses: kentaro-m/auto-assign-action@v1.1.0
+        if: github.event.action == 'opened'
         with:
           repo-token: '${{ secrets.GITHUB_TOKEN }}'
 
