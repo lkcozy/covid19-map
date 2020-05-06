@@ -8,7 +8,6 @@ jobs:
     steps:
       - name: '👷‍♀️👷‍♂️Auto assign PR assignee'
         uses: kentaro-m/auto-assign-action@v1.1.0
-        if: github.event.action == 'opened'
         with:
           repo-token: '${{ secrets.GITHUB_TOKEN }}'
 
@@ -20,7 +19,6 @@ jobs:
 
       - name: 🏷 Label PR based on branch name
         uses: TimonVS/pr-labeler-action@v3
-        if: github.event.action == 'opened'
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
