@@ -27,13 +27,3 @@ jobs:
         uses: TimonVS/pr-labeler-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  label_conflicts:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🔎 Auto-label merge conflicts
-        uses: mschilde/auto-label-merge-conflicts@v2.0
-        if: github.event.action == 'synchronize'
-        with:
-          CONFLICT_LABEL_NAME: 'has conflicts'
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
