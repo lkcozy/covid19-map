@@ -4,13 +4,15 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
-  label_conflicts:
+  triage:
     runs-on: ubuntu-latest
     steps:
-      - name: 🔎 Auto-label merge conflicts
-        uses: mschilde/auto-label-merge-conflicts@v2.0
+      - uses: Marr11317/ConflictAdviser@v1
         with:
-          CONFLICT_LABEL_NAME: 'has conflicts'
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          conflict_label: 'merge conflicts'
+          comment: '🤔 Merge conflicts detected'
