@@ -1,28 +1,26 @@
-name-template: "v$NEXT_PATCH_VERSION 🌈"
-tag-template: "v$NEXT_PATCH_VERSION"
+name-template: 'v$NEXT_PATCH_VERSION 🌈'
+tag-template: 'v$NEXT_PATCH_VERSION'
 categories:
-  - title: "✨ Features"
+  - title: '✨ Features'
     labels:
-      - "feature"
-  - title: ":recycle: Enhancements"
+      - 'feature'
+  - title: ':recycle: Enhancements'
     labels:
-      - "enhancement"
-      - "refactor"
-  - title: "🐛 Bug Fixes"
+      - 'enhancement'
+      - 'refactor'
+  - title: '🐛 Bug Fixes'
     labels:
-      - "fix"
-      - "hotfix"
-      - "bug"
-  - title: "🧰 Maintenance"
+      - 'fix'
+      - 'hotfix'
+      - 'bug'
+  - title: '🧰 Maintenance'
     labels:
-      - "ci"
-      - "chore"
-      - "build"
-  - title: "📝 Documentation"
-    labels:
-      - "documentations"
-change-template: "- $TITLE #$NUMBER"
+      - 'ci'
+      - 'chore'
+      - 'build'
+      - 'documentation'
+change-template: '- $TITLE #$NUMBER'
 exclude-labels:
-  - "skip-changelog"
+  - 'skip-changelog'
 template: |
   $CHANGES
