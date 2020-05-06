@@ -1,0 +1,16 @@
+name: LabelMerge Conflicts
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  label_conflicts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔎 Auto-label merge conflicts
+        uses: mschilde/auto-label-merge-conflicts@v2.0
+        with:
+          CONFLICT_LABEL_NAME: 'has conflicts'
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'

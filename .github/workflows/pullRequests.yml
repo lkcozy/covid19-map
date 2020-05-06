@@ -3,7 +3,7 @@ name: Pull Requests
 on: pull_request
 
 jobs:
-  pr:
+  assign_assignee:
     runs-on: ubuntu-latest
     steps:
       - name: '👷‍♀️👷‍♂️Auto assign PR assignee'
@@ -11,20 +11,19 @@ jobs:
         with:
           repo-token: '${{ secrets.GITHUB_TOKEN }}'
 
+  label_diff_size:
+    runs-on: ubuntu-latest
+    steps:
       - name: 🏷 Label PR diff size
         uses: 'pascalgn/size-label-action@v0.2.2'
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
           IGNORED: ".*\n!.gitignore\nyarn.lock/**"
 
+  label_branch:
+    runs-on: ubuntu-latest
+    steps:
       - name: 🏷 Label PR based on branch name
         uses: TimonVS/pr-labeler-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: 🔎 Auto-label merge conflicts
-        uses: mschilde/auto-label-merge-conflicts@v2.0
-        if: github.event.action == 'synchronize'
-        with:
-          CONFLICT_LABEL_NAME: 'has conflicts'
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
