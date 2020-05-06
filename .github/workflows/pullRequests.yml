@@ -1,8 +1,9 @@
 name: Pull Requests
+
 on: pull_request
 
 jobs:
-  pr-labels:
+  pr:
     runs-on: ubuntu-latest
     steps:
       - name: '👷‍♀️👷‍♂️Auto assign PR assignee'
