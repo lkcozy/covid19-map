@@ -1,0 +1,31 @@
+name: Pull Requests
+on: pull_request
+
+jobs:
+  pr-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "👷‍♀️👷‍♂️Auto assign PR assignee"
+        uses: kentaro-m/auto-assign-action@v1.1.0
+        if: github.event.action == 'opened'
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: 🏷 Label PR diff size
+        uses: "pascalgn/size-label-action@v0.2.2"
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          IGNORED: ".*\n!.gitignore\nyarn.lock/**"
+
+      - name: 🏷 Label PR based on branch name
+        uses: TimonVS/pr-labeler-action@v3
+        if: github.event.action == 'opened'
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+     - name: 🔎 Auto-label merge conflicts
+       uses: mschilde/auto-label-merge-conflicts@v2.0
+        if: github.event.action == 'synchronize'
+        with:
+          CONFLICT_LABEL_NAME: "has conflicts"
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
