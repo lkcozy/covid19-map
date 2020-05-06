@@ -3,3 +3,4 @@ fix: ['fix/*', 'hotfix/*']
 chore: chore/*
 refactor: refactor/*
 documentation: docs/*
+ci: ci/*
