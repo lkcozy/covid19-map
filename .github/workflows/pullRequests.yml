@@ -3,15 +3,6 @@ name: Pull Requests
 on: pull_request
 
 jobs:
-  assign_assignee:
-    runs-on: ubuntu-latest
-    steps:
-      - name: '👷‍♀️👷‍♂️Auto assign PR assignee'
-        uses: kentaro-m/auto-assign-action@v1.1.0
-        if: github.event.action == 'opened'
-        with:
-          repo-token: '${{ secrets.GITHUB_TOKEN }}'
-
   label_diff_size:
     runs-on: ubuntu-latest
     steps:

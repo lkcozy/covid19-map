@@ -8,11 +8,12 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  triage:
+  conflicts-checker:
     runs-on: ubuntu-latest
     steps:
-      - uses: Marr11317/ConflictAdviser@v1
+      - name: 🔎 Check merge conflicts
+        uses: Marr11317/ConflictAdviser@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           conflict_label: 'merge conflicts'
-          comment: '🤔 Merge conflicts detected'
+          comment: '😅 Merge conflicts detected'
