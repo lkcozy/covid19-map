@@ -19,7 +19,7 @@ jobs:
 
       - name: 🏷 Label PR based on branch name
         uses: TimonVS/pr-labeler-action@v3
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🔎 Auto-label merge conflicts
