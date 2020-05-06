@@ -29,10 +29,12 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
       - name: 🔧 Install and Build
         run: |
           yarn
           yarn build
+
       - name: 🚀 Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
