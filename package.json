@@ -7,7 +7,7 @@
     "deck.gl": "^8.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-map-gl": "^5.2.5"
+    "react-map-gl": "^5.2.7"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.10.1",
