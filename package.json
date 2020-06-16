@@ -4,7 +4,7 @@
   "private": false,
   "homepage": "http://lkcozy.github.io/covid19-map",
   "dependencies": {
-    "deck.gl": "^8.1.4",
+    "deck.gl": "^8.1.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-map-gl": "^5.2.7"
