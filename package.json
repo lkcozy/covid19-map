@@ -121,7 +121,7 @@
     "flow-bin": "^0.127.0",
     "husky": "^4.2.x",
     "imagemin-lint-staged": "^0.4.x",
-    "lint-staged": "^10.1.x",
+    "lint-staged": "^10.2.x",
     "markdownlint": "^0.20.0",
     "markdownlint-cli": "^0.23.0",
     "node-sass": "^4.14.x",
