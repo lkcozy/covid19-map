@@ -102,7 +102,7 @@
     "@commitlint/cli": "^8.3.x",
     "@commitlint/config-conventional": "^8.3.x",
     "@testing-library/jest-dom": "^5.10.0",
-    "@testing-library/react": "^10.2.x",
+    "@testing-library/react": "^10.3.x",
     "@testing-library/react-hooks": "^3.3.x",
     "aws-sdk": "^2.697.0",
     "cypress": "^4.8.x",
