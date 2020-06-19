@@ -4,7 +4,7 @@
   "private": false,
   "homepage": "http://lkcozy.github.io/covid19-map",
   "dependencies": {
-    "@aws-amplify/auth": "^3.2.13",
+    "@aws-amplify/auth": "^3.2.14",
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
     "@mapbox/geojsonhint": "^3.0.0",
