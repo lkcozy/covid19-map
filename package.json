@@ -132,7 +132,7 @@
     "start-server-and-test": "^1.11.x",
     "stylelint": "^13.6.x",
     "stylelint-config-css-modules": "^2.2.0",
-    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recess-order": "^2.0.x",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.18.x"
