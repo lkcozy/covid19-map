@@ -94,7 +94,7 @@
     "ts-bus": "^2.3.1",
     "uuid": "^8.1.0",
     "vis-data": "^6.6.1",
-    "vis-timeline": "^7.3.6",
+    "vis-timeline": "^7.3.7",
     "wellknown": "^0.5.0",
     "worker-loader": "^2.0.0"
   },
