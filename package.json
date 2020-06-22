@@ -33,7 +33,7 @@
     "dagre": "^0.8.5",
     "date-fns": "^2.14.0",
     "date-fns-tz": "^1.0.10",
-    "deck.gl": "^8.1.9",
+    "deck.gl": "^8.1.12",
     "delay": "^4.3.0",
     "dexie": "^3.0.1",
     "dexie-batch": "^0.4.2",
