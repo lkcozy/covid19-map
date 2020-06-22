@@ -100,7 +100,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.x",
-    "@commitlint/config-conventional": "^8.3.x",
+    "@commitlint/config-conventional": "^9.0.x",
     "@testing-library/jest-dom": "^5.10.0",
     "@testing-library/react": "^10.3.x",
     "@testing-library/react-hooks": "^3.3.x",
