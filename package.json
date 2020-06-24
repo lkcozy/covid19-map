@@ -15,7 +15,7 @@
     "@projectstorm/geometry": "^6.1.1",
     "@projectstorm/react-canvas-core": "^6.1.1",
     "@projectstorm/react-diagrams": "^6.1.1",
-    "@sentry/browser": "^5.17.x",
+    "@sentry/browser": "^5.18.x",
     "@turf/bbox": "^6.0.1",
     "@turf/boolean-point-in-polygon": "^6.0.1",
     "@turf/helpers": "^6.1.4",
