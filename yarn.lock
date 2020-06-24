@@ -10968,10 +10968,10 @@ jsonc-parser@~2.2.0:
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-2.2.1.tgz#db73cd59d78cce28723199466b2a03d1be1df2bc"
   integrity sha512-o6/yDBYccGvTz1+QFevz6l6OBZ2+fMVu2JZ9CIhzsYRX4mjaK5IyX9eldUdCmga16zlgQxyrj5pt9kzuj2C02w==
 
-jsoneditor@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/jsoneditor/-/jsoneditor-9.0.0.tgz#a484bf32deb325edf71379c406ec12211af34ac2"
-  integrity sha512-gDTu+WxCobkgQGjGrt0OAyX+N56V7A+2Aj6JhL+ZhH+Ofeo6+Rdmp+o32octPfvPRCMsqDA98JObvdBduzI5Jg==
+jsoneditor@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/jsoneditor/-/jsoneditor-9.0.1.tgz#75dc78b26565cba65e3ed7c596f6a664e8d8a85a"
+  integrity sha512-34c8OXR7ph/zDuC7NNl4+fKGtT76HPAoGGWlEVVr913QWal3UFuqiDsh8oFAb/HFMmI4c9RYa3sM8G9m3J63kQ==
   dependencies:
     ace-builds "^1.4.11"
     ajv "^6.12.2"
