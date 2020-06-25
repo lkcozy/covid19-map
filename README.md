@@ -1,5 +1,7 @@
 # COVID-19 Map ![Deployment](https://github.com/lkcozy/covid19-map/workflows/Deployment/badge.svg) ![Version](https://img.shields.io/github/package-json/v/lkcozy/covid19-map) ![dependencies](https://img.shields.io/david/lkcozy/covid19-map) ![Pull Requests](https://github.com/lkcozy/covid19-map/workflows/Pull%20Requests/badge.svg)
 
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/s/github/lkcozy/covid19-map)
+
 ## Get Started (Local Test)
 
 ```shell
