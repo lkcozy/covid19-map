@@ -122,7 +122,7 @@
     "husky": "^4.2.x",
     "imagemin-lint-staged": "^0.4.x",
     "lint-staged": "^10.2.x",
-    "markdownlint": "^0.20.0",
+    "markdownlint": "^0.20.4",
     "markdownlint-cli": "^0.23.0",
     "node-sass": "^4.14.x",
     "prettier": "^2.0.x",
