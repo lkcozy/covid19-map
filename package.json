@@ -104,7 +104,7 @@
     "@testing-library/jest-dom": "^5.10.0",
     "@testing-library/react": "^10.4.x",
     "@testing-library/react-hooks": "^3.3.x",
-    "aws-sdk": "^2.699.0",
+    "aws-sdk": "^2.709.0",
     "cypress": "^4.9.x",
     "danger": "^10.1.x",
     "enzyme": "^3.11.0",
