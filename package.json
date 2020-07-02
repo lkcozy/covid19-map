@@ -113,7 +113,7 @@
     "eslint-config-prettier": "^6.11.x",
     "eslint-plugin-cypress": "^2.11.0",
     "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-import": "^2.21.x",
+    "eslint-plugin-import": "^2.22.x",
     "eslint-plugin-jsx-a11y": "^6.2.x",
     "eslint-plugin-prettier": "^3.1.x",
     "eslint-plugin-react": "^7.20.x",
