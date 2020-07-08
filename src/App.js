@@ -7,7 +7,7 @@ import './App.css'
 const MAPBOX_ACCESS_TOKEN =
   'pk.eyJ1Ijoicm9iaW54aWEiLCJhIjoiY2lteG1paWJhMDNuY3ZobTR3MWlzaXc3YyJ9.-_adI58kkwW7-UtgvQcjMw'
 
-const data = [
+export const data = [
   {
     geometry: { coordinates: [-114.0581, 51.0453], type: 'Point' },
     properties: { name: 'P-034' },
