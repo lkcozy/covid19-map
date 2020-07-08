@@ -19,3 +19,12 @@ jobs:
         uses: TimonVS/pr-labeler-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  test_coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧪 Test with code coverage report
+        uses: ziishaned/jest-reporter-action@0.1.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          test-command: 'yarn test:coverage'
