@@ -22,7 +22,19 @@ jobs:
 
   test_coverage:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [13.x]
     steps:
+      - uses: actions/checkout@master
+      - name: 🛎️ Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@master
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: 🔧 Install and Build
+        run: yarn
+
       - name: 🧪 Test with code coverage report
         uses: ziishaned/jest-reporter-action@0.1.1
         with:

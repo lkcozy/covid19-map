@@ -33,8 +33,6 @@ const layer = new ScatterplotLayer({
   onHover: ({ object, x, y }) => {},
 })
 
-console.log('layer', layer)
-
 const App = () => {
   return (
     <DeckGL
