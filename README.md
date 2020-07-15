@@ -13,3 +13,14 @@ yarn start
 - [COVID-19 GraphQL API ](https://github.com/rlindskog/covid19-graphql) [Playground](https://covid19-graphql.now.sh/)
 - [Covid-19 Pandemic Status](https://github.com/rickkln/corona) - A simple tool to track global progress in defeating Covid-19, by focusing on the rate of change in death count globally and classifying countries by associated status.
 - [I am Covid -19 🦠](https://github.com/cryptodoct0r/Covid-19-Status-gql) - Visualization of the covid-19 dataset using Nuxtjs(vuejs),
+- [pomber/covid19](https://github.com/pomber/covid19)
+
+JSON time-series of coronavirus cases (confirmed, deaths and recovered) per country - updated daily
+
+- [Open COVID19 Map](https://covid19map.io/)([repo](https://github.com/daniel-karl/covid19-map)) Open map visualization with alternative data sources, containment scores, testing rate projection, replay mode
+
+- [COVID-19 Situation Report for Canada](https://iamcovid-19.netlify.app/charts/)
+
+- [covid19map.io](https://covid19map.io/)([repo](https://github.com/daniel-karl/covid19-map))
+
+* [](https://coronavirus-map-with-circles.herokuapp.com/map)
