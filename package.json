@@ -11,7 +11,7 @@
     "react-use": "^15.3.2"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.10.x",
+    "@testing-library/jest-dom": "^5.11.x",
     "@testing-library/react": "^10.0.x",
     "@testing-library/user-event": "^12.0.x",
     "react-scripts": "3.4.1"
