@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.10.x",
-    "@testing-library/react": "^10.0.x",
+    "@testing-library/react": "^10.4.x",
     "@testing-library/user-event": "^12.0.x",
     "react-scripts": "3.4.1"
   },
