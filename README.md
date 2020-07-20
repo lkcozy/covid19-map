@@ -23,4 +23,6 @@ JSON time-series of coronavirus cases (confirmed, deaths and recovered) per coun
 
 - [covid19map.io](https://covid19map.io/)([repo](https://github.com/daniel-karl/covid19-map))
 
+- [Escape](https://greatescape.co/?departDate=2020-10-07&returnDate=2020-10-21&origins=city%3AYYC&currency=CAD&viz=%3Bsick&virus=sick%3B0%3B639179)
+
 * [](https://coronavirus-map-with-circles.herokuapp.com/map)
