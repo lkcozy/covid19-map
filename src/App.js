@@ -3,14 +3,16 @@ import DeckGL from '@deck.gl/react'
 import { ScatterplotLayer, TextLayer } from '@deck.gl/layers'
 import { StaticMap } from 'react-map-gl'
 import { useAsync } from 'react-use'
+import { query } from 'graphql-helper'
+
 import fetchGraphQL from './lib/fetchGraphQL'
 
 import './App.css'
 
 const DATA_ENDPOINT_URL = 'https://covid19-graphql.now.sh'
 
-const CountryQuery = `query {
-  country(name: "Canada") {
+const CountryQuery = query('CountryQuery', { countryName: 'String!' })`{
+  country(name: $countryName) {
     name
     mostRecent {
       date(format: "yyyy-MM-dd")
@@ -20,15 +22,16 @@ const CountryQuery = `query {
       growthRate
     }
   }
-}
-`
+}`
 
 const MAPBOX_ACCESS_TOKEN =
   'pk.eyJ1Ijoicm9iaW54aWEiLCJhIjoiY2lteG1paWJhMDNuY3ZobTR3MWlzaXc3YyJ9.-_adI58kkwW7-UtgvQcjMw'
 
 const App = () => {
   const state = useAsync(async () => {
-    const response = await fetchGraphQL(DATA_ENDPOINT_URL, CountryQuery)
+    const response = await fetchGraphQL(DATA_ENDPOINT_URL, CountryQuery, {
+      countryName: 'Canada',
+    })
     const result = await response.data
     return result
   }, [])
@@ -42,7 +45,7 @@ const App = () => {
     {
       geometry: { coordinates: [-114.0581, 51.0453], type: 'Point' },
       properties: {
-        name: 'P-034',
+        name: ' ',
         value: `Date: ${date} \n Active ${
           confirmed - recovered
         } \n Confirmed: ${confirmed}\n Recovered: ${recovered} \n Death ${deaths}, \n Growth Rate:${(
