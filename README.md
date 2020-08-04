@@ -4,12 +4,14 @@
 
 ## Get Started (Local Test)
 
-```shell
+> This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+
+```bash
 yarn start
 ```
 
 ## Resources
-
+- [Sort by Cases](https://corona.lmao.ninja/v2/countries?sort=cases)
 - [COVID-19 GraphQL API ](https://github.com/rlindskog/covid19-graphql) [Playground](https://covid19-graphql.now.sh/)
 - [Covid-19 Pandemic Status](https://github.com/rickkln/corona) - A simple tool to track global progress in defeating Covid-19, by focusing on the rate of change in death count globally and classifying countries by associated status.
 - [I am Covid -19 🦠](https://github.com/cryptodoct0r/Covid-19-Status-gql) - Visualization of the covid-19 dataset using Nuxtjs(vuejs),
@@ -26,3 +28,7 @@ JSON time-series of coronavirus cases (confirmed, deaths and recovered) per coun
 - [Escape](https://greatescape.co/?departDate=2020-10-07&returnDate=2020-10-21&origins=city%3AYYC&currency=CAD&viz=%3Bsick&virus=sick%3B0%3B639179)
 
 * [](https://coronavirus-map-with-circles.herokuapp.com/map)
+
+## More
+
+You can view full document on Ant Design Pro [official website](https://pro.ant.design).
