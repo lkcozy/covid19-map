@@ -3524,10 +3524,10 @@
     "@umijs/plugin-request" "2.4.1"
     "@umijs/plugin-test" "1.0.0"
 
-"@umijs/preset-ui@^2.0.9":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-ui/-/preset-ui-2.2.3.tgz#20304de79ad082535b03a9719ac729102609a4e1"
-  integrity sha512-IkzDdNiy0s3YZgqokhJAoPQVnOHtrO1dGW1WP/LhBcwP2gXeh1QXaarFIiBFR84FyXIntibJzvp422y7gtdSuQ==
+"@umijs/preset-ui@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-ui/-/preset-ui-2.2.4.tgz#a2d424f3391567bb4a5b4b51a554cc3e9fb7481c"
+  integrity sha512-CiPi+o0ozHuKvG56E2mSwq8LAcECg555/d9LCtETibu4vmu75+G+ju6MWJIs50XcIokTFl7fkm5RuuEAm4U/yA==
   dependencies:
     "@umijs/plugin-ui-blocks" "^2.2.3"
     "@umijs/plugin-ui-tasks" "^2.2.0"
@@ -8578,11 +8578,6 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
-
-graphql-helper@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/graphql-helper/-/graphql-helper-0.3.0.tgz#6cef30ce6a23d1b9f6b1d327a99f65b5e7bd55a7"
-  integrity sha512-G0unwImCaKgjgP8racNRkD4ArtcL0LMEoI76yBjlUYuQZJtkMe2GJvZGx+E3I6Rj+M8XhFWpsjLN/qd9G/Nodg==
 
 grid-index@^1.1.0:
   version "1.1.0"
