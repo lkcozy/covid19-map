@@ -3438,10 +3438,10 @@
   dependencies:
     "@umijs/test" "^3.0.7"
 
-"@umijs/plugin-ui-blocks@^2.2.3":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@umijs/plugin-ui-blocks/-/plugin-ui-blocks-2.2.3.tgz#bf780fcbc16bb8dbeea0df6187a4f81c199ae6ee"
-  integrity sha512-M3C8q8y3BvDEf39cJsQMj0fPU57ur9PyIfJMHtsEIWkHQ35IpTnJncfhqvpY3LCMihYYyioyJMvGGxLEr5DUzw==
+"@umijs/plugin-ui-blocks@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@umijs/plugin-ui-blocks/-/plugin-ui-blocks-2.2.5.tgz#48e17a79faa5c6da0ad520882ac949db3f84a8b9"
+  integrity sha512-Jlnu8HczEuaAEX/U87ZBTAhqv8fQgzh4YeZYfQUyzkKEeVuYIYRYxhDXF9mPJxHQ39v6iSh6gupeuXQSejWv8Q==
   dependencies:
     "@babel/parser" "7.4.5"
     "@babel/traverse" "7.4.5"
@@ -3524,12 +3524,12 @@
     "@umijs/plugin-request" "2.4.1"
     "@umijs/plugin-test" "1.0.0"
 
-"@umijs/preset-ui@^2.0.9":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-ui/-/preset-ui-2.2.3.tgz#20304de79ad082535b03a9719ac729102609a4e1"
-  integrity sha512-IkzDdNiy0s3YZgqokhJAoPQVnOHtrO1dGW1WP/LhBcwP2gXeh1QXaarFIiBFR84FyXIntibJzvp422y7gtdSuQ==
+"@umijs/preset-ui@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-ui/-/preset-ui-2.2.6.tgz#fd303c32038d5b6ed75a534ddd6e1b9619103f8d"
+  integrity sha512-OJqr1OcABSfqnbF3aEaMoghd+ao3dTqh0jr5VDqMhdSzkP+R8U+QR8YValGIk2sTH4UasyKwiShgDKWC2gn2SQ==
   dependencies:
-    "@umijs/plugin-ui-blocks" "^2.2.3"
+    "@umijs/plugin-ui-blocks" "^2.2.5"
     "@umijs/plugin-ui-tasks" "^2.2.0"
     "@umijs/ui" "^2.2.1"
     immer "^5.0.0"
@@ -8578,11 +8578,6 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
-
-graphql-helper@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/graphql-helper/-/graphql-helper-0.3.0.tgz#6cef30ce6a23d1b9f6b1d327a99f65b5e7bd55a7"
-  integrity sha512-G0unwImCaKgjgP8racNRkD4ArtcL0LMEoI76yBjlUYuQZJtkMe2GJvZGx+E3I6Rj+M8XhFWpsjLN/qd9G/Nodg==
 
 grid-index@^1.1.0:
   version "1.1.0"
