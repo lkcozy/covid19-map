@@ -30,7 +30,7 @@
     "test": "umi test",
     "test:all": "node ./tests/run-tests.js",
     "test:component": "umi test ./src/components",
-    "tsc": "tsc"
+    "local": "start-server-and-test start http://localhost:8000"
   },
   "lint-staged": {
     "**/*.less": "stylelint --syntax less",

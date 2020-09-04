@@ -22,7 +22,7 @@ export async function getInitialState(): Promise<{
       history.push('/user/login')
     }
   }
-  return {
+  return {    
     settings: defaultSettings,
   }
 }

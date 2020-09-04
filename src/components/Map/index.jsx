@@ -50,7 +50,6 @@ const Map = () => {
     getRadius: (d) => d.properties.cases / 10,
     getFillColor: (d) => [255, 140, 0],
     getLineColor: (d) => [0, 0, 0],
-    onHover: ({ object, x, y }) => {},
   })
 
   const textLayer = new TextLayer({
@@ -66,17 +65,17 @@ const Map = () => {
     getAlignmentBaseline: 'top',
   })
 
-  const getTooltip = ({ object }) => {
+  const getTooltip = ({ object }) =>   {
     if (object) {
-      const { updated, flag, country, cases, deaths, active } = object.properties
+      const { updated, country, cases, deaths, active } = object.properties
       const date = moment(updated).format('LL')
       return `${country} \n Date: ${date} \n Active ${active} \n Confirmed: ${cases}\n Death ${deaths}`
     }
   }
   return (
     <DeckGL
-      initialViewState={{ longitude: -114.0581, latitude: 51.0453, zoom: 2 }}
-      controller={true}
+      initialViewState={{ longitude: 15, latitude: 30, zoom: 2 }}
+      controller
       getTooltip={getTooltip}
       layers={[layer, textLayer]}
     >
