@@ -2,9 +2,10 @@ version: 1
 labels:
 - label: "work in progress"
   title: ".*(?i)wip.*"
+  mergeable: true
 - label: "feature"
   title: ".*(?i)feat.*"
-- label: "hot fix"
+- label: "hotfix"
   title: ".*(?i)hot fix.*"
 - label: "fix"
   title: ".*Fix.*"
