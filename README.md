@@ -12,6 +12,7 @@ yarn start
 
 ## Resources
 
+- [COVID-19 Tracker](https://github.com/GodwillB/CoronaTracker)
 - [Sort by Cases](https://corona.lmao.ninja/v2/countries?sort=cases)
 - [COVID-19 GraphQL API ](https://github.com/rlindskog/covid19-graphql) [Playground](https://covid19-graphql.now.sh/)
 - [Covid-19 Pandemic Status](https://github.com/rickkln/corona) - A simple tool to track global progress in defeating Covid-19, by focusing on the rate of change in death count globally and classifying countries by associated status.
@@ -32,7 +33,7 @@ JSON time-series of coronavirus cases (confirmed, deaths and recovered) per coun
 
 ## TODO
 
-  - [ ] [Add a Dockerfile](https://medium.com/@shakyShane/lets-talk-about-docker-artifacts-27454560384f)
+- [ ] [Add a Dockerfile](https://medium.com/@shakyShane/lets-talk-about-docker-artifacts-27454560384f)
 
 ## More
 
