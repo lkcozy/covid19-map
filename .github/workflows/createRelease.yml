@@ -15,3 +15,5 @@ jobs:
     - uses: ncipollo/release-action@v1
       with:
         generateReleaseNotes: true
+        # When skipIfReleaseExists is enabled the action will be skipped if a non-draft release already exists for the provided tag.
+        skipIfReleaseExists: true
