@@ -11,6 +11,13 @@ jobs:
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
           IGNORED: ".*\n!.gitignore\nyarn.lock/**"
+  label_title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🏷 Label PR based on title
+        uses: srvaroa/labeler@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   label_branch:
     runs-on: ubuntu-latest

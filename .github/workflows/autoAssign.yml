@@ -5,14 +5,6 @@ on:
     types: [opened, reopened]
 
 jobs:
-  assign_reviewers:
-    runs-on: ubuntu-latest
-    steps:
-    - name: '👩‍🚒👨‍🚒Auto assign PR reviewers'
-      uses: shufo/auto-assign-reviewer-by-issuer@v1.0.0
-      with:
-        config: '.github/reviewers.yml'
-        token: ${{ secrets.GITHUB_TOKEN }}
   assign_assignees:
     runs-on: ubuntu-latest
     steps:

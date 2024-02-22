@@ -30,7 +30,12 @@
     "test": "umi test",
     "test:all": "node ./tests/run-tests.js",
     "test:component": "umi test ./src/components",
-    "local": "start-server-and-test start http://localhost:8000"
+    "local": "start-server-and-test start http://localhost:8000",
+    "version:base": "yarn version --no-commit-hooks",
+    "version:major": "yarn version:base --major",
+    "version:minor": "yarn version:base --minor",
+    "version:patch": "yarn version:base --patch",
+    "postversion": "git push --tags && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "lint-staged": {
     "**/*.less": "stylelint --syntax less",
