@@ -1,16 +1,11 @@
 changelog:
-  exclude:
-    authors:
-      - "dependabot[bot]"
   categories:
-    - title: Breaking Changes 🛠
+    - title: 🏕 Features
       labels:
-        - Semver-Major
-        - workflow
-    - title: Exciting New Features 🎉
+        - '*'
+      exclude:
+        labels:
+          - dependencies
+    - title: 👒 Dependencies
       labels:
-        - Semver-Minor
-        - enhancement
-    - title: Other Changes
-      labels:
-        - "*"
+        - dependencies
