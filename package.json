@@ -1,6 +1,6 @@
 {
   "name": "covid19-map",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "private": true,
   "homepage": "http://lkcozy.github.io/covid19-map",
   "description": "An out-of-box UI solution for enterprise applications",
